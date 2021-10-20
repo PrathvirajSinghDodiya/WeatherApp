@@ -77,7 +77,7 @@
         android:layout_gravity="center"
 
         android:layout_margin="2dp"
-        android:visibility="visible"
+        android:visibility="gone"
         app:cardCornerRadius="20dp"
         app:cardElevation="15dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayoutAnimation"
