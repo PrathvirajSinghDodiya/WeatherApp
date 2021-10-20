@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="100dp"
+    android:layout_height="125dp"
+    android:layout_gravity="center"
+    android:layout_margin="7dp"
+    android:background="@color/black"
+    app:cardCornerRadius="7dp"
+    app:cardElevation="15dp">
+
+    <RelativeLayout
+        android:id="@+id/colorchange"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="@drawable/back_one">
+
+        <TextView
+            android:id="@+id/timeshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Time"
+            android:textColor="#FFFFFF"></TextView>
+
+        <TextView
+            android:id="@+id/tempshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/timeshow"
+            android:gravity="center"
+            android:text="20"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/conditshow"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tempshow"
+            android:layout_centerHorizontal="true"
+            android:padding="4dp"
+            android:src="@mipmap/ic_launcher"></ImageView>
+
+        <TextView
+            android:id="@+id/windSpeedshow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/conditshow"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:padding="3dp"
+            android:text="13"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF">
+
+        </TextView>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="button_ok">WeatherApp</string>
+    <string name="channel_name">notify</string>
+    <string name="channel_description">notify</string>
+</resources>
